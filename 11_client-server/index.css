@@ -1,0 +1,52 @@
+.listreset {
+  list-style: none;
+}
+
+.button {
+  max-width: 25px;
+  max-height: 25px;
+}
+
+.pageNumber {
+  margin: 0;
+  padding: 10px 0;
+}
+
+.link {
+  /* outline: 1px solid black; */
+  text-decoration: none;
+  background-color: lemonchiffon;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.tit {
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+.title {
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+.linkPage {
+  margin: 0 15px 0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 25px;
+  min-height: 25px;
+  background-color: aquamarine;
+  outline: 1px solid black;
+}
+
+.linkToPage {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}

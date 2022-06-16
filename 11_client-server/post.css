@@ -1,0 +1,26 @@
+.pageTitle {
+  margin: 0;
+  margin-bottom: 10px;
+  padding: 20px;
+  outline: 2px solid black;
+  max-width: 1440px;
+  background-color: antiquewhite;
+}
+
+.page {
+  margin: 0;
+  margin-bottom: 10px;
+  padding: 20px;
+  outline: 1px solid black;
+  background-color:coral;
+}
+
+.comment {
+  display: inline-block;
+  margin: 0;
+  margin-bottom: 10px;
+  padding: 20px;
+  outline: 1px solid black;
+  background-color:darkgrey;
+  max-width: 100%;
+}

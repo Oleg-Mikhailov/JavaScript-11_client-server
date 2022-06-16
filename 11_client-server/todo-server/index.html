@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <title>TODO</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no">
+  <script defer src="./todo-app.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      createTitleListApp(document.getElementById('createListApp'));
+    });
+  </script>
+</head>
+
+<body>
+  <div id="createListApp"></div>
+  <!-- <a href="index.html" class="nav-link">Мои дела</a> -->
+  <script>
+    async function loadTodoItems() {
+      const response = await fetch('https://gorest.co.in/public-api/posts?page=9')
+      const data = await response.json();
+      const response1 = await fetch('https://gorest.co.in/public-api/posts?id=1704')
+      const data1 = await response1.json();
+      console.log(data, 'data1: ', data1);
+    }
+  </script>
+</body>
+
+</html>
